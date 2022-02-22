@@ -1,0 +1,184 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+
+header {
+  grid-area: header;
+}
+
+footer {
+  grid-area: footer;
+}
+
+section {
+  grid-area: section;
+}
+
+header,
+footer,
+nav
+ {
+    background-color: #ffc1ff;
+}
+
+body{
+   background-image: url(../Fondos/mecopa6.jpg);
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+ header{
+/* display: grid;
+ justify-items: auto;
+ align-items: end;*/
+ font-family:'Gloria Hallelujah', cursive; 
+ border-radius: 30px;
+ }
+
+section{
+    background-color:none;
+}
+
+
+article {
+  background-color: #ffc1ff;
+  border-radius: 30px;
+  text-align: center;
+  }
+  
+
+.img {
+  width: 200px;
+  height: 200px;
+}
+
+
+.img1{
+  width: 200px;
+  height: 200px;
+}
+
+/*
+section {
+  margin: 5px 30px 5px 90px;
+  padding: 5px 30px 5px 90px;
+}
+section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  justify-items: auto;
+  align-items: auto;
+  width: 1000px;
+  height: 1000px;
+  justify-content:auto ;
+  align-content:auto ;
+  }*/
+
+  footer{
+  display:grid;
+  border-radius: 30px;
+  justify-content: space-around;
+  align-content:space-around;
+  }
+  
+  .boxModel {
+   /* background-color:violet;*/
+    text-align: center;
+        width: 95%;
+    height: 50px;
+    overflow: hidden;
+    margin: 30px 10px 30px 10px;
+    padding: 10px 20px 10px 20px;
+   /* border-style: solid;
+    border-width: 5px;
+    border-color: violet;
+    border: dotted 5px ;*/
+    align-items: end;
+ }
+  /*
+ul{
+    font-size: 0;
+  }
+
+ 
+li {
+    display:flex;
+width: 10%;
+position: center;
+/*font-size: 24px;
+font-weight:bold;
+}*/
+
+form{
+  text-align: center  ;
+  font-weight: bold;
+ font-size: 20px
+}
+
+h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,h13,h14,h15,h16,h17{
+  text-align: center;
+  color: black;
+  font-weight:bold;
+  font-size:x-large;
+  font-family:'Gloria Hallelujah', cursive; 
+}
+
+nav{
+  text-align: center;
+}
+
+.historia{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+   }
+ .figure{
+   display: flex;
+   justify-content: space-evenly;
+   align-content: center;
+ }
+
+
+/*
+ @media  screen and (min-width: 320px ) {
+  section 
+   {display: grid;
+     grid-template-columns: auto auto;
+     grid-template-rows: auto auto ;
+     grid-column-gap: 15px;
+     grid-row-gap: 15px;
+     justify-items: stretch;
+     align-items: stretch;
+ }
+ .section1,nav,.table1
+ {
+   display: none;
+ }
+
+ @media screen and(min-width: 1200px) {
+  section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    justify-items: stretch;
+    align-items: stretch;
+    /*width: 1000px;
+    height: 1000px;
+    justify-content:stretch ;
+    align-content:stretch ;
+    }
+    .section1,nav,.table1{
+      display: block;
+    }
+    
+   
+ }
+  }
+  */
