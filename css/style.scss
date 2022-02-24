@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+header,
+footer{
+    background-color: #ffc1ff;
+    border-radius: 40px;
+}
+
+body{
+    background-image: url(../Fondos/mecopa6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form,
+table{
+    text-align: center  ;
+    font-weight: bold;
+    font-size: 20px
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    color: black;
+    font-weight:bold;
+    font-size:x-large;
+    font-family:'Gloria Hallelujah', cursive; 
+  }
+  
+section{
+    div{
+        div{
+            background-color: #ffc1ff;
+        }
+    }
+}  
+
+section{
+    div{
+        h1,h2,h3,h4,h5,h6{
+            text-decoration: underline;
+            
+        }
+    }
+}
