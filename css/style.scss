@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
+$titulos:(home:blue, catalogo:green, historia:violet, promos:pink, contacto:orange);
+
 header,
 footer{
     background-color: #ffc1ff;
@@ -33,13 +35,25 @@ section{
             background-color: #ffc1ff;
         }
     }
-}  
+  }
+  a{
+    @extend h1
+} 
 
-section{
-    div{
-        h1,h2,h3,h4,h5,h6{
-            text-decoration: underline;
-            
-        }
-    }
+span{
+  background-color: map-get($titulos , home);
+}
+
+@mixin underline{
+    text-decoration: underline;
+    
+}
+
+@mixin bold {
+    font-weight: bold;
+}
+
+
+a{
+    @include bold 
 }
