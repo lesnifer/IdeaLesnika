@@ -18,7 +18,7 @@ table {
   font-size: 20px;
 }
 
-h1, a, h2, h3, h4, h5, h6 {
+h1, a, h2, h3, h4, h5, h6, th, td {
   text-align: center;
   color: black;
   font-weight: bold;
@@ -29,10 +29,10 @@ h1, a, h2, h3, h4, h5, h6 {
 section div div {
   background-color: #ffc1ff;
 }
-
+/*
 span {
   background-color: blue;
-}
+}*/
 
 a {
   font-weight: bold;
